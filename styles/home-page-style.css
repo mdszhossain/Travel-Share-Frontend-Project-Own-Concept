@@ -4,7 +4,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+.hero-section-img img {
+    margin-right: 110px;
 }
 
 #page-mini-title {
@@ -40,7 +44,7 @@
     text-align: justify;
 }
 .hero-section {
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 .most-visited-container {
@@ -50,7 +54,7 @@
 }
 .most-visited-location {
     height: 50px;
-    width: 91%;
+    width: 88%;
     background-color: #2264d1;
     display: flex;
     justify-content: center;
