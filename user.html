@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Dashboard</title>
+    <link rel="stylesheet" href="styles/navbar-style.css">
+    <link rel="stylesheet" href="styles/user-style.css">
+</head>
+<body>
+    <!-- Header Static -->
+    <header>
+        <nav>
+            <div class="navBar">
+                <div class="nav-logo"></div>
+                <div class="nav-sections">
+                    <ul>
+                        <li><a class="nav-buttons" href="index.html">Home</a></li>
+                        <li><a class="nav-buttons" href="budget.html">Budget Packages</a></li>
+                        <li><a class="nav-buttons" href="gold.html">Gold Packages</a></li>
+                        <li><a class="nav-buttons" href="destination.html">Destination</a></li>
+                        <li><a class="nav-buttons" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="login-signup">
+                    <ul>
+                        <li><a href="user.html">User</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="user-block">
+            <div class="user-information">
+                <div class="info-block">
+                    <h3 class="user-head">USER INFORMATION</h3>
+                    <p class="user-details"><span class="u-detail">Username:</span> @mdszhossain</p>
+                    <p class="user-details"><span class="u-detail">Customer Name:</span> Md Shazzad Hossain</p>
+                    <p class="user-details"><span class="u-detail">Customer Age:</span> 23</p>
+                    <p class="user-details"><span class="u-detail">Customer Email:</span> shazzadmail1@gmail.com</p>
+                    <p class="user-details"><span class="u-detail">Customer Phone:</span> +880 1581-044982</p>
+                </div>
+            </div>
+            <div class="user-photo">
+                <div class="u-photo"></div>
+                <form class="file-upload" action="">
+                    <input type="file" name="" id="">
+                </form>
+            </div>
+        </div>
+        <div class="purchase-history">
+            <div class="purchase-counting">
+                <div class="purchases">
+                    <div class="purchase-count"></div>
+                    <h2 class="purchase-number">PENDING</h2>
+                    <h2 class="p-number">0</h2>
+                </div>
+                <div class="purchases">
+                    <div class="purchase-count"></div>
+                    <h2 class="purchase-number cancelled-purchase">CANCELLED</h2>
+                    <h2 class="p-number" style="color: red;">0</h2>
+                </div>
+                <div class="purchases">
+                    <div class="purchase-count"></div>
+                    <h2 class="purchase-number">CONFIRMED</h2>
+                    <h2 class="p-number">0</h2>
+                </div>
+                <div class="purchases">
+                    <div class="purchase-count"></div>
+                    <h2 class="purchase-number">COMPLETED</h2>
+                    <h2 class="p-number">0</h2>
+                </div>
+            </div>
+        </div>
+        <div class="cancel-button">
+            <button class="cancel-btn">CANCEL</button>
+        </div>
+        <div class="package-list">
+            <h2 class="purchased-pack">PURCHASED PACKAGES</h2>
+            <table>
+                <!-- <thead></thead> -->
+                <tbody>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="update-heading">
+            <h2 class="heading-update">UPDATE USER INFORMATION</h2>
+        </div>
+        <div class="update-information">
+            <form class="info-inputs" action="">
+                    <input type="text" name="" id="" placeholder="Username">
+                    <input type="text" name="" id="" placeholder="Your Name">
+                    <input type="text" name="" id="" placeholder="Your Age">
+                    <input type="email" name="" id="" placeholder="Your Email">
+                    <input type="text" name="" id="" placeholder="Your Phone">
+                    <input type="password" name="" id="" placeholder="Update Password"> 
+            </form>
+        </div>
+        <div class="update-button">
+            <button class="update-btn">UPDATE</button>
+        </div>
+    </main>
+    <footer>
+        <div class="cancel-button can-button">
+            <button class="cancel-btn can-btn">Log Out</button>
+        </div>
+    </footer>
+</body>
+</html>
