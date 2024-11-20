@@ -1,0 +1,75 @@
+.hero-section-container {
+    height: 600px;
+    background-image: url('../assets/BG-img/home-page-img.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-section-img img {
+    margin-right: 110px;
+}
+
+#page-mini-title {
+    font-size: 2.5rem;
+    color: #2264d1;
+}
+#page-big-title {
+    font-size: 3rem;
+    margin-top: -15px;
+}
+.underline {
+    height: 5px;
+    width: 350px;
+    background-color: #2264d1;
+}
+
+.budget-packages-description {
+    width: 400px;
+    margin-top: 50px;
+    text-align: justify;
+}
+.about-us-description p {
+    text-align: justify;
+}
+.hero-section {
+    margin-left: 110px;
+}
+
+.budget-packages-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-budget-packages {
+    height: 50px;
+    width: 88%;
+    background-color: #2264d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.destinations {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+}
+.destination-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 200px;
+}
+.destination-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
