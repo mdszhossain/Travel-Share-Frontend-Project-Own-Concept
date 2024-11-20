@@ -58,8 +58,8 @@
 }
 
 .packages {
-    height: 350px;
-    width: 350px;
+    height: 280px;
+    width: 280px;
     background-color: white;
     border-radius: 30px;
     padding: 40px;
@@ -71,8 +71,8 @@
 }
 
 .pack-head {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 1.60rem;
+    margin-bottom: 10px;
     color: #282828;
 }
 .blue-text {
@@ -80,12 +80,12 @@
 }
 .details {
     color: #282828;
-    font-size: 1.50rem;
+    font-size: 1.10rem;
     margin-top: 5px;
 }
 .price-pack, .buy-pack-btn {
     background-color: #2264d1;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 10px;
     font-size: 1.5rem;
     text-decoration: none;
@@ -94,8 +94,8 @@
     border: 2px solid transparent;
 }
 .buy-pack-btn {
-    margin-left: 30px;
-    padding: 10px 20px;
+    margin-left: 50px;
+    padding: 5px 10px;
     border: 2px solid transparent;
 }
 .buy-pack-btn:hover {

@@ -14,11 +14,15 @@ body {
 .navBar {
     background-color: #2264d1;
     height: 80px;
-    top: 0px;
-    position: sticky;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+nav {
+    background-color: #2264d1;
+    max-width: 100vw;
+    height: 80px;
 }
 
 .nav-logo { 
@@ -80,5 +84,6 @@ body {
  header {
     position: sticky;
     top: 0px;
+    
  }
  
