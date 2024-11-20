@@ -42,6 +42,11 @@ body {
 .nav-buttons {
     padding: 10px;
 }
+.white-btn {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
 .nav-buttons:hover {
     background-color: white;
     color: #2264d1;
@@ -70,5 +75,10 @@ body {
     border-radius: 10px;
     color: white;
     padding: 10px;
+ }
+
+ header {
+    position: sticky;
+    top: 0px;
  }
  
